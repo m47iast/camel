@@ -80,7 +80,7 @@ pattern or a set of header names to be filtered out.
 
 [source,xml]
 ----
-<bean class="org.apache.camel.impl.DefaultHeaderFilterStrategy" id="myFilter">
+<bean class="org.apache.camel.support.DefaultHeaderFilterStrategy" id="myFilter">
     <property name="outFilter">
         <set>
             <value>unwantedHeaderName</value>
